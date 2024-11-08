@@ -1,0 +1,15 @@
+# Ignore environment variables file
+.env
+.venv
+
+beam_env
+.DS_Store
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore other sensitive files (e.g., service account keys)
+*.json
